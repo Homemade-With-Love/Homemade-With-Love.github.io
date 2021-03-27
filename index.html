@@ -9,9 +9,13 @@
 
     <!-- font-family: 'Great Vibes', cursive; -->
     <!-- font-family: 'Paprika', cursive; -->
+    <!-- font-family: 'Architects Daughter', cursive; -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Paprika&display=swap" rel="stylesheet">
-    <!-- . -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <!-- --styles-- -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
     <!-- <link rel="stylesheet" href="styles/small.css"> -->
@@ -21,63 +25,108 @@
 
 <body>
     <header>
-        <div>
+        <div class="container">
             <!-- <img id="logo-pic-large-screen" src="images/temple-inn-logo-261x350-noBackground.png" alt="logo"> -->
             <h1 class="site-name">Homemade With Love</h1>
-
-
             <div class="grid-container">
-                <div class="grid-item"><i style="font-size:24px" class="fa">&#128222;</i> (480)555-1012</div>
-                <!-- <div class="grid-item"><i style="font-size:24px" class="fa"></i>Peruvian Cuisine</div> -->
-                <div id="grid-item-special">Peruvian Cuisine</div>
+                <div class="grid-item"><i style="font-size:24px" class="fa">&#128222;</i> (480) 555-1012</div>
+                <div class="grid-item-special">Peruvian Cuisine</div>
                 <div class="grid-item"><i style="font-size:24px" class="fa"> &#128467;</i> March 20, 2021</div>
             </div>
 
-
-
-
-
-
-            <!-- <div id="phone-number-and-week"> -->
-            <!--Phone Icon-->
-            <!-- <p> -->
-            <!-- <i style="font-size:24px" class="fa">&#128222;</i> (480)555-1012 -->
-            <!-- </p> -->
-
-            <!--Baseball Icon-->
-            <!-- <p>
-                    <i style="font-size:24px" class="fa">&#9918;</i> Just a baseball
-                </p> -->
-
-            <!--Calendar Icon-->
-            <!-- <p> -->
-            <!-- <i style="font-size:24px" class="fa"> &#128467;</i> March 20, 2021 -->
-            <!-- </p> -->
-            <!-- </div> -->
-            <!-- <h2 class="site-name-sub">Peruvian Cuisine</h2> -->
             <h3 class="site-name-tag">Remember Us For Your Catering And Special Events</h3>
 
-
+            <hr>
+            <div class="first-hr"></div>
         </div>
-        <!-- <nav>
-            <button onclick="toggleMenu()" class="menu">🏰</button>
-            <ul id="menu" class="hide">
-                <li class="active menuNav"><a href="index.html">Home</a></li>
-                <li class="menuNav"><a href="temple.html">Temples</a></li>
-                <li class="menuNav"><a href="reservation.html">Reservation</a></li>
-                <li class="menuNav"><a href="services.html">Services</a></li>
-                <li class="menuNav"><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <ul>
-                <li id="contact">1 (555) TSuites</li>
-            </ul>
-        </nav> -->
 
     </header>
 
-    <main>
-        <p>Hello World</p>
+    <main class="container">
+
+        <!-- Appetizer -->
+        <div class="menu">Appetizer</div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/appetizers/papa_rellenas.png" alt="papa rellenas" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Papa Rellenas</p>
+                <p class="menu-item-text">Fried potatoes stuffed with meat, olive and raisins.</p>
+            </div>
+        </div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/appetizers/causa.png" alt="causa" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Causa</p>
+                <p class="menu-item-text">Smashed potatoes with yellow pepper, filled with chicken and avocado. Served
+                    with olive and red bell pepper.</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Entrée -->
+        <div class="menu">Entrée</div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/entree/ceviche.png" alt="ceviche" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Ceviche </p>
+                <p class="menu-item-text">Fish marinated with fresh lime juice, red onions, lettuce, sweet finished with
+                    sliced potatoes and canchita.</p>
+            </div>
+        </div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/entree/lomo_saltado.png" alt="lomo saltado" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Lomo Saltado</p>
+                <p class="menu-item-text">Traditional Peruvian dish, a stir fry that typically combines marinated beef
+                    with onions and tomatoes. Served with rice and french fries.</p>
+            </div>
+        </div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/entree/pescado_a_lo_macho.png" alt="pescado a lo macho" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Pescado a lo Macho </p>
+
+                <p class="menu-item-text">Fish topped with seafood mixed with Peruvian sauce made with yellow pepper.
+                    Served with rice.</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Dessert -->
+        <div class="menu">Dessert</div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/dessert/flan.png" alt="flan" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Flan</p>
+                <p class="menu-item-text">Peruvian caramel custard, smooth and sweet that uses milk and sweetened
+                    condensed
+                    milk.</p>
+            </div>
+        </div>
+        <div class="menu-grid">
+            <div>
+                <img src="images/dessert/inca_kola_2lt.png" alt="inca kola 2lt" id="inka-kola" class="menu-pic">
+            </div>
+            <div>
+                <p class="food-name">Inka Kola</p>
+                <p class="menu-item-text">Inka Kola</p>
+            </div>
+        </div>
+        <hr>
     </main>
+
 </body>
 
 </html>
